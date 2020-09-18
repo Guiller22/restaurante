@@ -1,0 +1,126 @@
+<html>
+<head>
+<style>
+    @font-face {
+  font-family: miLetra;
+  src: url(fonts/caveat.woff2);
+  font-weight: bold;
+}
+#parteArriba {
+  background-image: url(fondo1.jpg);
+  background-position: top;
+  margin:auto;
+  text-align:center;
+  margin-top: auto;
+}
+#parteAbajo {
+  background-image: url(fondo2.jpg);
+  color:yellowgreen;
+  background-position: bottom;
+  margin:auto;
+  text-align:center;
+  font-family: miLetra;
+}
+#nombreMiguel{
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+#imgabajo {
+  border-radius: 50%;
+  width: 5%;
+}
+#parteCentro
+{
+  background-color: white;
+  background-position: center;
+  margin:auto;
+  text-align:center;
+  font-family: miLetra;
+}
+#texto {
+  width: 300px;
+  background-color:darkcyan;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: small;
+
+}
+#textoCentro {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  color: darkcyan;
+  font-size: small;
+  
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+
+    <div id="parteArriba">
+        <div id="texto">
+        <p>PROMOCIÓN</p>
+        <p>EN PEDIDOS A RECOGER</p>
+        <h1>POR CADA DOS PIZZAS , LLÉVATE OTRA DE REGALO</h1>
+        <h1>O UNA BOTELLA DE LAMBRUSCO</h1>
+        </div>
+        <p>prueba</p>
+        
+        
+    </div>
+
+    <div id="parteCentro">
+        <div id="textoCentro">
+        <p>Ven a probar la mejor pasta de Valladolid</p>
+        <h1>EL RESTAURANTE</h1>
+        <div class="row">
+            <div class="column">
+              <img src="tatin-01.jpg">
+            </div>
+            <div class="column">
+              <img src="tatin-02.jpg">
+            </div>
+            <div class="row1">
+                <div class="column1">
+                  <img src="tatin-03.jpg" width=150%>
+                </div>
+                <div class="column1">
+                    <img src="tatin-04.jpg">
+                  </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="parteAbajo">
+        <h1>"No existe plato desdeñado en la cocina cuando se realiza de manera auténtica"</h1>
+        <img id="imgabajo" src="miguel-de-cervantes.jpg" alt="Avatar">
+        <p id="nombreMiguel">MIGUEL DE CERVANTES</p>
+        
+        
+    </div>
+
+</body>
+</html>
