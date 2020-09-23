@@ -7,13 +7,13 @@
   font-weight: bold;
 }
 #parteArriba {
-  background-image: url(fondo1.jpg);
+  background-image: url(imagenes/fondo1.jpg);
   background-position: top;
   margin:auto;
   text-align:center;
 }
 #parteAbajo {
-  background-image: url(fondo2.jpg);
+  background-image: url(imagenes/fondo2.jpg);
   color:yellowgreen;
   font-family: miLetra;
   text-align: center;
@@ -56,6 +56,27 @@ background-size: cover;
   font-size: small;
   
 }
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  display: table;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 </style>
 </head>
@@ -76,15 +97,15 @@ background-size: cover;
         <div id="textoCentro">
         <p>Ven a probar la mejor pasta de Valladolid</p>
         <h1>EL RESTAURANTE</h1>
-              <img src="tatin-01.jpg">
-              <img src="tatin-02.jpg">
-                  <img src="tatin-03.jpg">
-                    <img src="tatin-04.jpg">
+              <img src="imagenes/tatin-01.jpg">
+              <img src="imagenes/tatin-02.jpg">
+                  <img src="imagenes/tatin-03.jpg">
+                    <img src="imagenes/tatin-04.jpg">
         </div>
     </div>
     <div id="parteAbajo">
         <h1>"No existe plato desdeñado en la cocina cuando se realiza de manera auténtica"</h1>
-        <img id="imgabajo" src="miguel-de-cervantes.jpg" alt="Avatar">
+        <img id="imgabajo" src="imagenes/miguel-de-cervantes.jpg" alt="Avatar">
         <p id="nombreMiguel">MIGUEL DE CERVANTES</p>
         
         
